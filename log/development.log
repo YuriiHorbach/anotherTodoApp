@@ -111,3 +111,601 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 93ms (Views: 85.2ms | ActiveRecord: 0.0ms | Allocations: 4362)
 
 
+  [1m[35m (11.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (25.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks"[0m
+Started GET "/" for ::1 at 2020-10-23 21:38:55 +0300
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 193)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/dsl.rb:47:in `instance_eval':  (Bundler::Dsl::DSLError)
+[!] There was an error parsing `Gemfile`: syntax error, unexpected local variable or method, expecting end-of-input - gem 'jbuilder', '~> 2.7'g
+                        ^
+. Bundler cannot continue.
+
+ #  from /home/user/workspace/anotherTodoApp/Gemfile:19
+ #  -------------------------------------------
+ #  # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+ >  gem 'jbuilder', '~> 2.7'g
+ #  gem 'bootstrap-sass'
+ #  -------------------------------------------
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/dsl.rb:47:in `eval_gemfile'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/dsl.rb:12:in `evaluate'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/definition.rb:34:in `build'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler.rb:195:in `definition'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler.rb:143:in `setup'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/setup.rb:20:in `block in <top (required)>'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/ui/shell.rb:136:in `with_level'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/ui/shell.rb:88:in `silence'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/setup.rb:20:in `<top (required)>'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+/home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/dsl.rb:47:in `instance_eval': /home/user/workspace/anotherTodoApp/Gemfile:19: syntax error, unexpected local variable or method, expecting end-of-input (SyntaxError)
+gem 'jbuilder', '~> 2.7'g
+                        ^
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/dsl.rb:47:in `eval_gemfile'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/dsl.rb:12:in `evaluate'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/definition.rb:34:in `build'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler.rb:195:in `definition'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler.rb:143:in `setup'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/setup.rb:20:in `block in <top (required)>'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/ui/shell.rb:136:in `with_level'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/ui/shell.rb:88:in `silence'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/setup.rb:20:in `<top (required)>'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+
+Completed 200 OK in 2445ms (Views: 2381.5ms | ActiveRecord: 0.0ms | Allocations: 68300)
+
+
+Started GET "/" for ::1 at 2020-10-23 21:39:08 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 51.5ms | ActiveRecord: 0.0ms | Allocations: 6075)
+
+
+Started GET "/" for ::1 at 2020-10-23 21:39:12 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 85ms (Views: 83.7ms | ActiveRecord: 0.0ms | Allocations: 6049)
+
+
+Started GET "/" for ::1 at 2020-10-23 21:39:52 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 6055)
+
+
+Started GET "/" for ::1 at 2020-10-23 21:46:03 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 80)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 127ms (Views: 122.7ms | ActiveRecord: 0.0ms | Allocations: 7074)
+
+
+Started GET "/" for ::1 at 2020-10-23 21:49:13 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.0ms | Allocations: 7047)
+
+
+Started GET "/" for ::1 at 2020-10-23 21:50:12 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 80)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 202ms (Views: 166.9ms | ActiveRecord: 0.0ms | Allocations: 7045)
+
+
+Started GET "/" for ::1 at 2020-10-23 21:51:21 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 127ms (Views: 110.0ms | ActiveRecord: 0.0ms | Allocations: 7041)
+
+
+Started GET "/" for ::1 at 2020-10-23 21:51:29 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 66)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 91ms (Views: 88.7ms | ActiveRecord: 0.0ms | Allocations: 7027)
+
+
+Started GET "/" for ::1 at 2020-10-23 21:53:05 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/dsl.rb:47:in `instance_eval':  (Bundler::Dsl::DSLError)
+[!] There was an error parsing `Gemfile`: syntax error, unexpected local variable or method, expecting end-of-input - gem 'jbuilder', '~> 2.7'g
+                        ^
+. Bundler cannot continue.
+
+ #  from /home/user/workspace/anotherTodoApp/Gemfile:19
+ #  -------------------------------------------
+ #  # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+ >  gem 'jbuilder', '~> 2.7'g
+ #  gem 'bootstrap-sass'
+ #  -------------------------------------------
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/dsl.rb:47:in `eval_gemfile'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/dsl.rb:12:in `evaluate'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/definition.rb:34:in `build'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler.rb:195:in `definition'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler.rb:143:in `setup'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/setup.rb:20:in `block in <top (required)>'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/ui/shell.rb:136:in `with_level'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/ui/shell.rb:88:in `silence'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/setup.rb:20:in `<top (required)>'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+/home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/dsl.rb:47:in `instance_eval': /home/user/workspace/anotherTodoApp/Gemfile:19: syntax error, unexpected local variable or method, expecting end-of-input (SyntaxError)
+gem 'jbuilder', '~> 2.7'g
+                        ^
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/dsl.rb:47:in `eval_gemfile'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/dsl.rb:12:in `evaluate'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/definition.rb:34:in `build'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler.rb:195:in `definition'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler.rb:143:in `setup'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/setup.rb:20:in `block in <top (required)>'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/ui/shell.rb:136:in `with_level'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/ui/shell.rb:88:in `silence'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/setup.rb:20:in `<top (required)>'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+	from /home/user/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+
+Completed 200 OK in 977ms (Views: 975.8ms | ActiveRecord: 0.0ms | Allocations: 7216)
+
+
+Started GET "/" for ::1 at 2020-10-23 21:58:37 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: c3a8066a892be22fe522
+Version: webpack 4.44.2
+Time: 3770ms
+Built at: 10/23/2020 9:58:47 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-dac02a081fc4e566d790.js    124 KiB  application  [emitted] [immutable]  application
+js/application-dac02a081fc4e566d790.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-dac02a081fc4e566d790.js js/application-dac02a081fc4e566d790.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 792 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'bootstrap' in '/home/user/workspace/anotherTodoApp/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 15:0-20
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'jquery' in '/home/user/workspace/anotherTodoApp/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 13:0-17
+
+Completed 200 OK in 9878ms (Views: 9876.9ms | ActiveRecord: 0.0ms | Allocations: 7205)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:03:22 +0300
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 176)
+Completed 500 Internal Server Error in 248ms (ActiveRecord: 0.0ms | Allocations: 9232)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap' with type 'text/css'
+Checked in these paths: 
+  /home/user/workspace/anotherTodoApp/app/assets/config
+  /home/user/workspace/anotherTodoApp/app/assets/images
+  /home/user/workspace/anotherTodoApp/app/assets/stylesheets
+  /home/user/.rvm/gems/ruby-2.7.0/gems/actioncable-6.0.3.4/app/assets/javascripts
+  /home/user/.rvm/gems/ruby-2.7.0/gems/activestorage-6.0.3.4/app/assets/javascripts
+  /home/user/.rvm/gems/ruby-2.7.0/gems/actionview-6.0.3.4/lib/assets/compiled
+  /home/user/.rvm/gems/ruby-2.7.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/user/workspace/anotherTodoApp/node_modules
+  /home/user/.rvm/gems/ruby-2.7.0/gems/popper_js-1.16.0/assets/javascripts
+  /home/user/.rvm/gems/ruby-2.7.0/gems/bootstrap-4.5.2/assets/stylesheets
+  /home/user/.rvm/gems/ruby-2.7.0/gems/bootstrap-4.5.2/assets/javascripts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:13
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-10-23 22:03:47 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/home/user/workspace/anotherTodoApp/config/webpack/environment.js:3
+const { environment } = require('@rails/webpacker')
+        ^
+
+SyntaxError: Identifier 'environment' has already been declared
+    at new Script (vm.js:88:7)
+    at NativeCompileCache._moduleCompile (/home/user/workspace/anotherTodoApp/node_modules/v8-compile-cache/v8-compile-cache.js:242:18)
+    at Module._compile (/home/user/workspace/anotherTodoApp/node_modules/v8-compile-cache/v8-compile-cache.js:186:36)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (/home/user/workspace/anotherTodoApp/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)
+    at Object.<anonymous> (/home/user/workspace/anotherTodoApp/config/webpack/development.js:3:21)
+    at Module._compile (/home/user/workspace/anotherTodoApp/node_modules/v8-compile-cache/v8-compile-cache.js:194:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (/home/user/workspace/anotherTodoApp/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)
+    at WEBPACK_OPTIONS (/home/user/workspace/anotherTodoApp/node_modules/webpack-cli/bin/utils/convert-argv.js:114:13)
+    at requireConfig (/home/user/workspace/anotherTodoApp/node_modules/webpack-cli/bin/utils/convert-argv.js:116:6)
+    at /home/user/workspace/anotherTodoApp/node_modules/webpack-cli/bin/utils/convert-argv.js:123:17
+    at Array.forEach (<anonymous>)
+    at module.exports (/home/user/workspace/anotherTodoApp/node_modules/webpack-cli/bin/utils/convert-argv.js:121:15)
+    at /home/user/workspace/anotherTodoApp/node_modules/webpack-cli/bin/cli.js:71:45
+    at Object.parse (/home/user/workspace/anotherTodoApp/node_modules/yargs/yargs.js:576:18)
+    at /home/user/workspace/anotherTodoApp/node_modules/webpack-cli/bin/cli.js:49:8
+    at Object.<anonymous> (/home/user/workspace/anotherTodoApp/node_modules/webpack-cli/bin/cli.js:366:3)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+
+Completed 200 OK in 8831ms (Views: 8827.0ms | ActiveRecord: 0.0ms | Allocations: 20701)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:04:21 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1402ms (Views: 1400.2ms | ActiveRecord: 0.0ms | Allocations: 9471)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:05:46 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 10.7ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 58.4ms | ActiveRecord: 0.0ms | Allocations: 4381)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:06:45 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 66)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 99ms (Views: 77.5ms | ActiveRecord: 0.0ms | Allocations: 4364)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:09:10 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 279ms (Views: 277.4ms | ActiveRecord: 0.0ms | Allocations: 3381)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:11:40 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms | Allocations: 6045)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap' with type 'text/css'
+Checked in these paths: 
+  /home/user/workspace/anotherTodoApp/app/assets/config
+  /home/user/workspace/anotherTodoApp/app/assets/images
+  /home/user/workspace/anotherTodoApp/app/assets/stylesheets
+  /home/user/.rvm/gems/ruby-2.7.0/gems/actioncable-6.0.3.4/app/assets/javascripts
+  /home/user/.rvm/gems/ruby-2.7.0/gems/activestorage-6.0.3.4/app/assets/javascripts
+  /home/user/.rvm/gems/ruby-2.7.0/gems/actionview-6.0.3.4/lib/assets/compiled
+  /home/user/.rvm/gems/ruby-2.7.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/user/workspace/anotherTodoApp/node_modules
+  /home/user/.rvm/gems/ruby-2.7.0/gems/popper_js-1.16.0/assets/javascripts
+  /home/user/.rvm/gems/ruby-2.7.0/gems/bootstrap-4.5.2/assets/stylesheets
+  /home/user/.rvm/gems/ruby-2.7.0/gems/bootstrap-4.5.2/assets/javascripts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:13
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-10-23 22:16:54 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 65)
+Completed 500 Internal Server Error in 208ms (ActiveRecord: 0.0ms | Allocations: 7039)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap' with type 'text/css'
+Checked in these paths: 
+  /home/user/workspace/anotherTodoApp/app/assets/config
+  /home/user/workspace/anotherTodoApp/app/assets/images
+  /home/user/workspace/anotherTodoApp/app/assets/stylesheets
+  /home/user/.rvm/gems/ruby-2.7.0/gems/actioncable-6.0.3.4/app/assets/javascripts
+  /home/user/.rvm/gems/ruby-2.7.0/gems/activestorage-6.0.3.4/app/assets/javascripts
+  /home/user/.rvm/gems/ruby-2.7.0/gems/actionview-6.0.3.4/lib/assets/compiled
+  /home/user/.rvm/gems/ruby-2.7.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/user/workspace/anotherTodoApp/node_modules
+  /home/user/.rvm/gems/ruby-2.7.0/gems/popper_js-1.16.0/assets/javascripts
+  /home/user/.rvm/gems/ruby-2.7.0/gems/bootstrap-4.5.2/assets/stylesheets
+  /home/user/.rvm/gems/ruby-2.7.0/gems/bootstrap-4.5.2/assets/javascripts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+  
+app/assets/stylesheets/application.scss:13
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-10-23 22:17:14 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 4c4008a2d860c6278aaf
+Version: webpack 4.44.2
+Time: 15360ms
+Built at: 10/23/2020 10:17:44 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9ed2bdcba7cb0e6e0e96.js    138 KiB  application  [emitted] [immutable]  application
+js/application-9ed2bdcba7cb0e6e0e96.js.map    152 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9ed2bdcba7cb0e6e0e96.js js/application-9ed2bdcba7cb0e6e0e96.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.15 KiB {application} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss 315 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'bootstrap' in '/home/user/workspace/anotherTodoApp/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 26:0-19
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'jquery' in '/home/user/workspace/anotherTodoApp/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 1:0-17
+
+ERROR in ./node_modules/@rails/ujs/lib/assets/compiled/rails-ujs.js
+Module not found: Error: Can't resolve 'jquery' in '/home/user/workspace/anotherTodoApp/node_modules/@rails/ujs/lib/assets/compiled'
+ @ ./node_modules/@rails/ujs/lib/assets/compiled/rails-ujs.js 1:0-17
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 29997ms (Views: 29994.9ms | ActiveRecord: 0.0ms | Allocations: 10683)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:22:07 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/user/workspace/anotherTodoApp/public/packs
+[Webpacker] Hash: 33a38b03c16d32208032
+Version: webpack 4.44.2
+Time: 20226ms
+Built at: 10/23/2020 10:22:47 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e393daf9c34040b9835b.js    663 KiB  application  [emitted] [immutable]  application
+js/application-e393daf9c34040b9835b.js.map    776 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e393daf9c34040b9835b.js js/application-e393daf9c34040b9835b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 969 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 6 hidden modules
+
+Completed 200 OK in 40722ms (Views: 40719.7ms | ActiveRecord: 0.0ms | Allocations: 66870)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:25:22 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 70)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 93ms (Views: 89.0ms | ActiveRecord: 0.0ms | Allocations: 8211)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:25:33 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 65)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 132ms (Views: 114.2ms | ActiveRecord: 0.0ms | Allocations: 8200)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:34:26 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | Allocations: 2491)
+
+
+  
+NameError (uninitialized constant PagesController::Tasl
+Did you mean?  Task):
+  
+app/controllers/pages_controller.rb:3:in `home'
+Started GET "/" for ::1 at 2020-10-23 22:34:54 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1612)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms | Allocations: 3213)
+
+
+  
+ActionView::Template::Error (undefined method `empty?' for nil:NilClass):
+    1: <div class="container">
+    2: 	<%if @tasks.empty?%>
+    3: 		<span class="text-warning">There are no tasks!</span>
+    4: 	<%else%>
+    5: 	 	<table class="table table-hover table-bordered">
+  
+app/views/pages/home.html.erb:2
+Started GET "/" for ::1 at 2020-10-23 22:35:39 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTask Exists? (8.9ms)[0m  [1m[34mSELECT 1 AS one FROM "tasks" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:2
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/pages/home.html.erb:14
+  Rendered pages/home.html.erb within layouts/application (Duration: 58.6ms | Allocations: 5441)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 162ms (Views: 133.3ms | ActiveRecord: 20.6ms | Allocations: 13944)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:36:20 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTask Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "tasks" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:2
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/pages/home.html.erb:14
+  Rendered pages/home.html.erb within layouts/application (Duration: 49.2ms | Allocations: 1524)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 116ms (Views: 112.4ms | ActiveRecord: 0.8ms | Allocations: 9764)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:36:26 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTask Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "tasks" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:2
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/pages/home.html.erb:14
+  Rendered pages/home.html.erb within layouts/application (Duration: 11.9ms | Allocations: 1293)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 130ms (Views: 127.8ms | ActiveRecord: 0.7ms | Allocations: 8494)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:38:10 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTask Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "tasks" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:2
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/pages/home.html.erb:14
+  Rendered pages/home.html.erb within layouts/application (Duration: 10.3ms | Allocations: 1520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 206ms (Views: 202.3ms | ActiveRecord: 1.3ms | Allocations: 9657)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:38:34 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTask Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "tasks" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:2
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/pages/home.html.erb:14
+  Rendered pages/home.html.erb within layouts/application (Duration: 41.8ms | Allocations: 1292)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 199ms (Views: 195.5ms | ActiveRecord: 0.7ms | Allocations: 8506)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:38:55 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 76)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 96ms (Views: 86.9ms | ActiveRecord: 0.0ms | Allocations: 8221)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:39:15 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTask Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "tasks" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (Duration: 8.3ms | Allocations: 746)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 58.2ms | ActiveRecord: 0.5ms | Allocations: 8884)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:39:36 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTask Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "tasks" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:2
+  Rendered pages/home.html.erb within layouts/application (Duration: 12.9ms | Allocations: 748)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 102ms (Views: 78.6ms | ActiveRecord: 0.6ms | Allocations: 8899)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:39:59 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTask Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "tasks" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:2
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/pages/home.html.erb:14
+  Rendered pages/home.html.erb within layouts/application (Duration: 18.6ms | Allocations: 1468)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 149ms (Views: 142.6ms | ActiveRecord: 0.7ms | Allocations: 9605)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:42:58 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTask Exists? (2.3ms)[0m  [1m[34mSELECT 1 AS one FROM "tasks" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:2
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/pages/home.html.erb:14
+  Rendered pages/home.html.erb within layouts/application (Duration: 64.1ms | Allocations: 1474)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 214ms (Views: 185.2ms | ActiveRecord: 3.5ms | Allocations: 9718)
+
+
+Started GET "/" for ::1 at 2020-10-23 22:43:49 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mTask Exists? (5.4ms)[0m  [1m[34mSELECT 1 AS one FROM "tasks" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:2
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/pages/home.html.erb:14
+  Rendered pages/home.html.erb within layouts/application (Duration: 55.7ms | Allocations: 1471)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 175ms (Views: 137.6ms | ActiveRecord: 5.7ms | Allocations: 9697)
+
+

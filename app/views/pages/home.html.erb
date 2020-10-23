@@ -1,8 +1,25 @@
 <div class="container">
-	<div class="row-fluid">
-		<div class="col-lg-12 span10 offset1">
-			<h1>ToDo</h1>
-			<p>Welcome to ToDo app</p>
-		</div>
-	</div>
+	<%if @tasks.empty? %>
+		<span class="text-warning">There are no tasks!</span>
+	<%else%>
+	 	<table class="table table-hover table-bordered">
+	 		<thead>
+	 			<tr>
+	 				<th> Title </th>
+	 				<th> Created at </th>
+	 				<th> Completed </th>
+	 			</tr>
+	 		</thead>
+	 		<tbody>
+	 			<%@tasks.each do |task|%>
+	 				<tr>
+	 					<td> <strong> <%= task.title %> </strong> </td>
+	 					<td class="text-info"> <%= task.created_at %> </td>
+	 					<td class="text-success"> <%= task.completed %> </td>
+	 				</tr>
+	 			<%end%>
+	 		</tbody>
+	 		
+	 	</table>	
+	<%end%>
 </div>

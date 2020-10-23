@@ -6,10 +6,19 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <div class="container">
+        <div class="span10 offset1 ">
+          <div class="hero-unit text-center p-3 mb-2 bg-secondary text-white rounded">
+              <h1>ToDo</h1>
+              <p>Welcome to ToDo app</p>
+          </div>
+        </div>
+    </div>
     <%= yield %>
   </body>
 </html>
